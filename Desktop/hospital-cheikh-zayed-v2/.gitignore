@@ -1,0 +1,38 @@
+# ===== Secrets & configuration locale =====
+.env
+*.env.local
+*.env.production
+
+# ===== Java / Maven =====
+target/
+*.class
+*.jar
+*.war
+*.ear
+.mvn/wrapper/maven-wrapper.jar
+!.mvn/wrapper/maven-wrapper.properties
+
+# ===== Frontend =====
+webapp/node_modules/
+webapp/dist/
+webapp/.vite/
+
+# ===== IDE =====
+.idea/
+*.iml
+.vscode/
+*.swp
+.DS_Store
+
+# ===== Logs =====
+*.log
+logs/
+
+# ===== Docker =====
+docker-compose.override.yml
+
+# ===== Données sensibles =====
+rsc-test/
+*.jks
+*.p12
+*.pem
